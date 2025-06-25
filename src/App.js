@@ -9,12 +9,12 @@ import UgcGallery from "./components/UgcGallery";
 
 function App() {
   //Instance ID
-  let InstanceId_Widget = "1136815";
-  let InstanceId_QA = "";
+  let InstanceId_Widget = "605159";
+  let InstanceId_QA = "1155030";
   let InstanceId_SEO = "";
   let InstanceId_Carousel = "";
-  let InstanceId_StarRating = "";
-  let InstanceId_PromotedProd = "";
+  let InstanceId_StarRating = "1155031";
+  let InstanceId_PromotedProd = "1155033";
   let InstanceId_UgcGallery = "";
   let InstanceId_ReviewsTab = "";
 
@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid={ProductId}
+            productid={7868288467102}
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
