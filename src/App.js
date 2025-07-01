@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid={7868288467102}
+            productid={ProductId}
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
